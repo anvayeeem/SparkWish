@@ -2,7 +2,7 @@
 
 Manifest Your Desires. Track Your Spark.
 
-SparkWish is an elegant manifestation tracking web application that bridges spirituality with accountability. It combines AI-powered goal analysis, verified progress tracking via social media, and community matching to help manifestors turn their intentions into reality.
+SparkWish is an elegant manifestation tracking web application that bridges spirituality with accountability. It combines AI-powered goal analysis and verified progress tracking via social media to help manifestors turn their intentions into reality.
 
 Show Image
 
@@ -28,10 +28,6 @@ Show Image
   - Energy & alignment sliders (1-10)
   - Optional journal entries
   - Personalized "vibe score" (0-100) with actionable nudges
-- 🤝 Verified Matching: Connect with fellow manifestors
-  - Prioritizes matches with verified social progress
-  - Anonymized profiles for privacy
-  - Filter for "verified only" matches
 
 ### Design Philosophy
 - Old Money Aesthetic: Elegant serif typography, neutral palette (ivory, deep brown, gold)
@@ -78,7 +74,6 @@ sparkwish/
 │   │   ├── Dashboard.js            # Main manifestation dashboard
 │   │   ├── StateAnalyzer.js        # Current state analysis modal
 │   │   ├── VerificationModal.js    # Social verification flow
-│   │   ├── MatchingPanel.js        # Verified matching interface
 │   │   └── ProfilePage.js          # Account & linked socials settings
 │   ├── services/
 │   │   ├── mockAuth.js             # Mock authentication service
@@ -157,13 +152,6 @@ All features currently use mock services for development:
 - Optional Journal: Add reflections
 - Receive Insights: AI generates vibe score + personalized nudge
 
-### 4. Find Your Tribe
-- Open Matching: Click "Find Matches" in dashboard
-- Review Suggestions: See alignment scores (0-100%)
-- Filter Verified: Toggle "Verified Only" for proven manifestors
-- Connect: Send connection request to aligned souls
-
-
 ## 🎯 Roadmap
 
 ### Version 1.0 (Current - MVP)
@@ -179,7 +167,6 @@ All features currently use mock services for development:
 - Real OAuth flows (LinkedIn, Twitter APIs)
 - OpenAI GPT-4 integration for analysis
 - Firebase Functions for verification logic
-- Enhanced matching algorithm with similarity scoring
 - Email/push notifications for reminders
 
 ### Version 3.0 (Future)
@@ -196,7 +183,6 @@ SparkWish is built with user empowerment and consent at its core:
 - Opt-In Everything: All social connections and verifications are optional
 - Minimal Data Collection: We only scan for goal-related keywords, never store full profiles
 - Revocable Access: Disconnect social accounts anytime from Profile settings
-- Anonymized Matching: Matches use hashed themes, no personal identifiers shared
 - Transparent AI: All AI suggestions clearly labeled; users maintain full control
 
 ### Data Storage (Current MVP)
@@ -248,6 +234,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 
 ## 💫 Philosophy
-"SparkWish bridges the mystical with the measurable. We believe manifestation works best when paired with intentional action, community support, and real-world accountability. Your desires deserve both devotion and data."
+"SparkWish bridges the mystical with the measurable. We believe manifestation works best when paired with intentional action and real-world accountability. Your desires deserve both devotion and data."
 
-Manifest deliberately. Track authentically. Connect meaningfully.
+Manifest deliberately. Track authentically.

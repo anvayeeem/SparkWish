@@ -121,11 +121,6 @@ const Landing = ({ onNavigate }) => (
         <h3 className="text-2xl font-serif text-neutral-800 mb-4">State Analysis</h3>
         <p className="text-neutral-600 font-light">AI sentiment, personalized nudges.</p>
       </div>
-      <div className="border border-neutral-200 p-8 bg-white">
-        <Users className="text-amber-700 mb-4" size={32} />
-        <h3 className="text-2xl font-serif text-neutral-800 mb-4">Verified Matching</h3>
-        <p className="text-neutral-600 font-light">Connect via proven alignment.</p>
-      </div>
     </div>
     <footer className="border-t border-neutral-200 bg-white py-8 text-center text-neutral-500 text-sm">
       <p>© 2025 SparkWish</p>
